@@ -1,17 +1,17 @@
 void main(List<String> args) {
-  print("Kürşat Emre Fındık'ın dersleri");
-  print("Dart Öğrenmek çok keyifli");
+  print("Kürşat Emre Fındık's lessons");
+  print("Learning darts is a lot of fun.");
   print('Dart');
-  print('Emre\'nin dersleri');
+  print('Emre\'s lessons');
   print("3 * 5");
   print(3 * 5);
   print(3 + 5);
-  //Bu bölgeye yazılan kelimer yorum satırıdır.
-  print("kürşat " + "Emre");
+  //This area is for comment lines.
+  print("Kürşat " + "Emre");
 
-  /* Yorum Bloğu
-  print("deneme")
-  print("deneme")
-  print("deneme")
+  /* Comment Block
+  print("test")
+  print("test")
+  print("test")
   */
 }
