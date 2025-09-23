@@ -1,25 +1,25 @@
 void main(List<String> args) {
-  int sayi1 = 15, sayi2 = 8;
-  int kucukSayi = 0;
-  int kucukSayi2 = 0;
-  if (sayi1 < sayi2) {
-    kucukSayi = sayi1;
+  int number1 = 15, number2 = 8;
+  int smallNumber = 0;
+  int smallNumber2 = 0;
+  if (number1 < number2) {
+    smallNumber = number1;
   } else {
-    kucukSayi = sayi2;
+    smallNumber = number2;
   }
-  print("tanımlanan iki sayıdan küçük olanın değeri $kucukSayi");
+  print("the value of the smaller of the two defined numbers: $smallNumber");
 
-  sayi1 < sayi2 ? kucukSayi2 = sayi1 : kucukSayi2 = sayi2;
-  print("tanımlanan iki sayıdan küçük olanın değeri $kucukSayi2");
+  number1 < number2 ? smallNumber2 = number1 : smallNumber2 = number2;
+  print("the value of the smaller of the two defined numbers: $smallNumber2");
 
-  kucukSayi = sayi1 < sayi2 ? sayi1 : sayi2;
-  print("tanımlanan iki sayıdan küçük olanın değeri $kucukSayi2");
+  smallNumber = number1 < number2 ? number1 : number2;
+  print("the value of the smaller of the two defined numbers: $smallNumber2");
 
-  String isim = "emre", ad = "emre";
+  String name = "emre", name1 = "emre";
 
-  if (isim == ad) {
-    print("isimler aynı");
+  if (name == name1) {
+    print("names are the same");
   } else {
-    print("isimler farklı");
+    print("names are different");
   }
 }
