@@ -1,27 +1,27 @@
 void main(List<String> args) {
-  int sayi1 = 15, sayi2 = 8;
+  int number1 = 15, number2 = 8;
 
-  /* if (sayi1 > sayi2) {
-    print("$sayi1 sayısı $sayi2 sayısından büyüktür");
+  /* if (number1 > number2) {
+    print("The number $number1 is greater than the number $number2.");
   } else {
-    print("$sayi1 sayısı $sayi2 sayısından küçüktür");
+    print("The number $number1 is smaller than the number $number2.");
   } */
-  //İF BLOĞUNDA ÇALIŞACAK KISIMLARI {}SÜSLÜ PARANTEZ İÇİNDE YAZ!
-  /* if (sayi1 > sayi2) {
-    print("$sayi1 sayısı $sayi2 sayısından büyüktür");
-  } else if (sayi1 < sayi2) {
-    print("$sayi1 sayısı $sayi2 sayısından küçüktür");
+  //Write the sections that will work in the if block {} in curly brackets.
+  /* if (number1 > number2) {
+    print("The number $number1 is greater than the number $number2.");
+  } else if (number1 < number2) {
+    print("The number $number1 is smaller than the number $number2.");
   } else {
-    print("$sayi1 sayısı $sayi2 sayısına eşittir");
+    print("The number $number1 is equal to the number $number2.");
   } */
 
-  if (sayi1 > sayi2) {
-    print("$sayi1 sayısı $sayi2 sayısından büyüktür");
+  if (number1 > number2) {
+    print("The number $number1 is greater than the number $number2.");
   }
-  if (sayi1 < sayi2) {
-    print("$sayi1 sayısı $sayi2 sayısından küçüktür");
+  if (number1 < number2) {
+    print("The number $number1 is smaller than the number $number2.");
   }
-  if (sayi1 == sayi2) {
-    print("$sayi1 sayısı $sayi2 sayısına eşittir");
+  if (number1 == number2) {
+    print("The number $number1 is equal to the number $number2.");
   }
 }
