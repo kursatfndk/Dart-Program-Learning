@@ -1,3 +1,3 @@
 void main(List<String> args) {
-  print("Merhaba Dünya");
+  print("Hello World");
 }
