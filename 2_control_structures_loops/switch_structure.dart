@@ -1,22 +1,22 @@
 void main(List<String> args) {
-  String notDegeri = "DD";
+  String noteValue = "DD";
 
-  switch (notDegeri) {
+  switch (noteValue) {
     case "AA":
-      print("Notun 90 - 100 arasındadır");
+      print("Your grade is between 90 and 100.");
 
     case "BA":
-      print("Notun 80 - 90 arasındadır");
+      print("Your grade is between 80 and 90");
 
     case "BB":
-      print("Notun 70 - 80 arasındadır");
+      print("Your grade is between 70 and 80");
 
     case "CC":
-      print("Notun 50 - 60 arasındadır");
+      print("Your grade is between 60 and 70");
 
     default:
       {
-        print("Girdiğiniz harf notu tanımlı değil");
+        print("The letter grade you entered is not defined.");
       }
   }
 }
