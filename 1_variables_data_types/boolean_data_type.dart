@@ -1,10 +1,10 @@
 void main(List<String> args) {
-  //bool veri tipi doğru yanlış şeklinde ifade edilir.
-  bool ogrenciMi = false;
-  print(ogrenciMi);
-  bool calisiyorMu = true;
-  print(calisiyorMu);
+  //The boolean data type is expressed as true or false.
+  bool student = false;
+  print(student);
+  bool working = true;
+  print(working);
 
-  var ehliyatVarMi = true;
-  print(ehliyatVarMi);
+  var drivingLicence = true;
+  print(drivingLicence);
 }
