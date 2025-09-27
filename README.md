@@ -11,7 +11,8 @@ The purpose of this repo is to **document my progress**, build a reference for m
 
 - **0_basic_setup_notes**  
 - **1_Variables_data_types** 
-- **2_Control_structures_loops**  
+- **2_Control_structures_loops**
+- **3_functions**
 
 ---
 
