@@ -13,6 +13,7 @@ The purpose of this repo is to **document my progress**, build a reference for m
 - **1_Variables_data_types** 
 - **2_Control_structures_loops**
 - **3_functions**
+- **4_collection_structures**
 
 ---
 
