@@ -14,6 +14,7 @@ The purpose of this repo is to **document my progress**, build a reference for m
 - **2_Control_structures_loops**
 - **3_functions**
 - **4_collection_structures**
+- **5_general_review_questions**
 
 ---
 
