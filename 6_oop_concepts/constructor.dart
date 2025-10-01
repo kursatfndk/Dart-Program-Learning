@@ -9,7 +9,7 @@ void main(List<String> args) {
   toyota.tellYourDetails();
 }
 
-class Cars{
+class Cars {
   int? modelYear;
   String? brand;
 
@@ -17,12 +17,11 @@ class Cars{
     print("the constructor method was triggered.");
   } */
 
-  Cars(String brand, int modelYear){
+  Cars(String brand, int modelYear) {
     print("the constructor method was triggered");
-
   }
 
-  void tellYourDetails(){
+  void tellYourDetails() {
     print("This car's model year is $modelYear and its make is $brand");
   }
 }
