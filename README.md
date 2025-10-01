@@ -15,6 +15,7 @@ The purpose of this repo is to **document my progress**, build a reference for m
 - **3_functions**
 - **4_collection_structures**
 - **5_general_review_questions**
+- **6_oop_concepts**
 
 ---
 
