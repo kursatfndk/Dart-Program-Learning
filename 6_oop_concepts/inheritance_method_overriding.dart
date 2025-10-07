@@ -27,7 +27,9 @@ class User {
 }
 
 class NormalUser extends User {
-  void invite() {}
+  void invite() {
+    
+  }
 
   @override
   void logIn() {
@@ -37,9 +39,24 @@ class NormalUser extends User {
 }
 
 class AdminUser extends User {
-  void calculateTotalUserCount() {}
+  @override
+  void logIn() {
+    print("The admin user has logged in.");
+  }
+
+  void calculateTotalUserCount() {
+
+  }
 }
 
+
 class ReadOnly extends NormalUser {
-  void readArtice() {}
+  void readArtice() {
+
+  }
+
+  @override
+  void logIn() {
+    print("Read-only user has logged in.");
+  }
 }
