@@ -19,6 +19,7 @@ The purpose of this repo is to **document my progress**, build a reference for m
 - **7_functional_programing_null_safety**
 - **8_exception_and_generic**
 - **9_asynchronous_programming**
+- **10_file_database**
 
 ---
 
